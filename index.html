@@ -4,52 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo</title>
-    <link rel="stylesheet" href="/css/mystyle.css">
-    <link rel="stylesheet" href="gothamhtf-bold-webfont.ttf">
-    <link rel="stylesheet" href="gothamhtf-book-webfont.ttf">
+    <link rel="stylesheet" href="../Demo-Hamsa-Tech/css/mystyle.css">
 </head>
 <body>
     <div class="container">
         <div class="banner">
-            <ul class="menu">
-                <li><a href="">New Arrivals</a> </li>
-                <li><a href="">Boots</a></li>
-                <li><a href="">Flats</a></li>
-                <li><a href="">Heels</a></li>
-                <li><a href="">Sandals</a></li>
-                <li><a href="">Sneakers</a></li>
-                <li><a href="">Sales</a></li>
-                <li><a href="">View All</a></li>
-                <li><a href="">Campaign</a></li>
-                <li><a href="">Story</a></li>
+            <label class="banner_menu-mobile" for="dot">|||
+                
+            </label>
+            <input type="checkbox" name="dot" id="dot">
+            <ul class="banner__menu">
+                <li><a href="#">New Arrivals</a> </li>
+                <li><a href="#">Boots</a></li>
+                <li><a href="#">Flats</a></li>
+                <li><a href="#">Heels</a></li>
+                <li><a href="#">Sandals</a></li>
+                <li><a href="#">Sneakers</a></li>
+                <li><a href="#">Sales</a></li>
+                <li><a href="#">View All</a></li>
+                <li><a href="#">Campaign</a></li>
+                <li><a href="#">Story</a></li>
             </ul>
 
-            <h1>HappyPoints</h1>
+            <h2>HappyPoints</h2>
         </div>
 
         <div class="row-2">
-            <div class="row-2_hp">HappyPoints</div>
+            <div class="row-2_hp"><h2>HappyPoints</h2></div>
             <div class="row-2_ht">
-                <h2>Hamsa</h2>
-                <h3>Technologies</h3>
+                <div class="row-2_ht_title">
+                    <h2>Hamsa</h2>
+                    <h3>Technologies</h3>
+                </div>
+                
             </div>
         </div>
 
         <div class="row-3">tag your photos with #HAPPYPOINTS and #HAMSA TECHNOLOGIES</div>
         <div class="row-4">
-            <div class="row-4_img"><img src="" alt=""></div>
-            <div class="row-4_img"><img src="" alt=""></div>
-            <div class="row-4_img"><img src="" alt=""></div>
-            <div class="row-4_img"><img src="" alt=""></div>
-            <div class="row-4_img"><img src="" alt=""></div>
+            <div class="row-4_img"><img src="./img/1.jpg" alt=""></div>
+            <div class="row-4_img"><img src="./img/2.jpg" alt=""></div>
+            <div class="row-4_img"><img src="./img/3.jpg" alt=""></div>
+            <div class="row-4_img"><img src="./img/4.jpg" alt=""></div>
+            <div class="row-4_img"><img src="./img/5.jpg" alt=""></div>
         </div>
 
         <div class="customer">
-            <div class="customer_get-mail"></div>
-            <div class="customer_care"></div>
+            <div class="customer_get-mail">
+                <p>get 15% off when you subscribe!</p>
+                <input type="text" placeholder="Your Email"><input type="button" value="GO">
+                <div class="customer_get-mail_social">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="./img/social/fb.png" alt="facebook"></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="./img/social/twitter.png" alt="twitter"></a>
+                    <a href="https://instagram.com/" target="_blank"><img src="./img/social/instagram.png" alt="instagram"></a>
+                    <a href="https://pinterest.com/" target="_blank"><img src="./img/social/pinterest.png" alt="pinterest"></a>
+                    <a href="https://youtube.com/" target="_blank"><img src="./img/social/youtube.png" alt="youtube"></a>
+                </div>
+            </div>
+            <div class="customer_care">
+                <h3>customer care</h3>
+                <ul>
+                    <li><a href="">Ordering & Payment</a></li>
+                    <li><a href="">Shipping & Tracking</a></li>
+                    <li><a href="">Returns</a></li>
+                    <li><a href="">International</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
         </div>
 
-        <footer></footer>
+        <footer>
+            <span>Company Info</span>
+            <span>Privacy Policy (Updated 2017)</span>
+            <span>Terms of Use</span>
+            <span>California Transparency in Supply Chains Act Statement</span>
+            <span class="del-border">Site Map</span>
+        </footer>
     </div>
 </body>
 </html>
